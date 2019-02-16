@@ -1,5 +1,5 @@
 # treehacks19
 project for TreeHacks 2019
-Team: Jessica Hsueh, Ziskra Raza, Emelia Mahone
+Team: Jessica Hsueh, Zisqra Raza, Emelia Mahone
 
-Repository for TreeHacks 2019 project. App to track user's trash generation.
+Repository for TreeHacks 2019 project. App to track user's trash generation to awareness about one's trash generation.

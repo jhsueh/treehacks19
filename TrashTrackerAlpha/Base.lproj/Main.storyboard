@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Info-->
+        <!--Help-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="TrashTrackerAlpha" customModuleProvider="target" sceneMemberID="viewController">
@@ -33,7 +33,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Info" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Help" image="second" selectedImage="second" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -50,12 +50,38 @@
                     </tabBar>
                     <connections>
                         <segue destination="Bda-Fk-vyw" kind="relationship" relationship="viewControllers" id="7Od-sP-Y0G"/>
+                        <segue destination="tcZ-3J-3gQ" kind="relationship" relationship="viewControllers" id="Cko-mH-0Cp"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="cnV-HK-yTZ"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+        <!--Info-->
+        <scene sceneID="k92-7X-FF3">
+            <objects>
+                <viewController id="tcZ-3J-3gQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WVx-rd-IrW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Weekly Tracker" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9xz-b5-a8o">
+                                <rect key="frame" x="111" y="52" width="153" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="O2S-i0-1nw"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Info" image="second" selectedImage="second" id="2cw-rm-RSN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gZw-EA-V4P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749.60000000000002" y="-1061.0194902548726"/>
         </scene>
         <!--Home-->
         <scene sceneID="SqH-3A-Q8I">
@@ -73,7 +99,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="WNd-5I-fwF"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="first" id="JlL-EA-RL3"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="first" selectedImage="first" id="JlL-EA-RL3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O1X-5a-a5x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
